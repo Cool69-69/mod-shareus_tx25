@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/bingeplix')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/HeavenRequest')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,10 +44,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', url='https://t.me/how_to_open_linksz/9'),
-            InlineKeyboardButton('Main Channel⚡', url='https://t.me/bingeplix')
+            InlineKeyboardButton('🔍 Search Here', url='https://t.me/HeavenRequest'),
+            InlineKeyboardButton('Main Channel⚡', url='https://t.me/HeavenForYouAll')
             ],[
-            InlineKeyboardButton(' OWNER 😬  ', url='https://t.me/inform_adminzbot')
+            InlineKeyboardButton(' Premium Services 🔥  ', url='https://t.me/HeavenForYouAll/7916')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -89,10 +89,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', url='https://t.me/how_to_open_linksz/9'),
-            InlineKeyboardButton('Main Channel⚡', url='https://t.me/bingeplix')
+            InlineKeyboardButton('🔍 Search Here', url='https://t.me/HeavenRequest'),
+            InlineKeyboardButton('Main Channel⚡', url='https://t.me/HeavenForYouAll')
             ],[
-            InlineKeyboardButton(' OWNER 😬  ', url='https://t.me/inform_adminzbot')
+            InlineKeyboardButton(' Premium Services 🔥  ', url='https://t.me/HeavenForYouAll/7916')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
